@@ -1,0 +1,200 @@
+[
+    {
+        "created_at": "Sun Sep 19 23:59:58 +0000 2021",
+        "id": 1439741087086792712,
+        "id_str": "1439741087086792712",
+        "text": "RT @RepThomasMassie: How can Joe Biden, in good conscience, force pregnant women to take a vaccine that hasn\u2019t even received emergency use\u2026",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "RepThomasMassie",
+                    "name": "Thomas Massie",
+                    "id": 975200486,
+                    "id_str": "975200486",
+                    "indices": [
+                        3,
+                        19
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1390865086139482115,
+            "id_str": "1390865086139482115",
+            "name": "Just me",
+            "screen_name": "Elizabe24197",
+            "location": "Montana, USA",
+            "description": "I want to go back . None of this is ok.",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 138,
+            "friends_count": 269,
+            "listed_count": 0,
+            "created_at": "Sat May 08 03:04:28 +0000 2021",
+            "favourites_count": 10430,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 2947,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1390870885343629315/4NKJcnwk_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1390870885343629315/4NKJcnwk_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1390865086139482115/1620443541",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Sun Sep 19 11:53:58 +0000 2021",
+            "id": 1439558381379932165,
+            "id_str": "1439558381379932165",
+            "text": "How can Joe Biden, in good conscience, force pregnant women to take a vaccine that hasn\u2019t even received emergency u\u2026 https://t.co/U5YjQUQiOy",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/U5YjQUQiOy",
+                        "expanded_url": "https://twitter.com/i/web/status/1439558381379932165",
+                        "display_url": "twitter.com/i/web/status/1\u2026",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 975200486,
+                "id_str": "975200486",
+                "name": "Thomas Massie",
+                "screen_name": "RepThomasMassie",
+                "location": "Swamp",
+                "description": "U.S. Rep KY4, co-Chair 2A Caucus, greenest member of congress, MIT 93 Bachelor of Science EE, MIT 96 Master of Science #sassywithmassie #PoliticalScienceDenier",
+                "url": "https://t.co/qMUQsQTjzh",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/qMUQsQTjzh",
+                                "expanded_url": "http://massie.house.gov/",
+                                "display_url": "massie.house.gov",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 241512,
+                "friends_count": 3774,
+                "listed_count": 2184,
+                "created_at": "Wed Nov 28 02:33:14 +0000 2012",
+                "favourites_count": 55228,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 11311,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1339685912872177664/EKpZGLli_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1339685912872177664/EKpZGLli_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/975200486/1367276184",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none",
+                "withheld_in_countries": []
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 3377,
+            "favorite_count": 14581,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 3377,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    }
+]

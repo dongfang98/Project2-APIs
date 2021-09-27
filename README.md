@@ -42,9 +42,18 @@ API.home_timeline([since_id][, max_id][, count][, page])
 Results are saved in my_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/my_tweets.json
 
-I use user_timeline to return the 20 most recent statuses posted from the authenticating user or the user specified. It’s also possible to request another user’s timeline via the id parameter.  
+I use 'user_timeline' to return the 20 most recent statuses posted from the authenticating user or the user specified. It’s also possible to request another user’s timeline via the id parameter.  
 ```
 API.user_timeline([id/user_id/screen_name][, since_id][, max_id][, count][, page])
 ```
 Results are saved in user_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/user_tweets.json
+
+### Status methods
+I use 'update_status' to update the authenticated user’s status. Statuses that are duplicates or too long will be silently ignored.
+```
+API.update_status(status[, in_reply_to_status_id][, lat][, long][, source][, place_id])
+```
+![image](https://user-images.githubusercontent.com/78338843/134862590-6cf5f11f-40c2-4ff4-b35a-1bd8fb9d4cd6.png)
+![image](https://user-images.githubusercontent.com/78338843/134862680-8fcd0464-1108-4839-9057-4163be7bd241.png)
+

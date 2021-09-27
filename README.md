@@ -66,7 +66,21 @@ Destroy a friendship with the specified user (aka unfollow).
 ```
 API.destroy_friendship(id/screen_name/user_id)
 ```
-I test this with my roomate's ID.
+I test this with my roomate's ID.  
 ![image](https://user-images.githubusercontent.com/78338843/134863447-7875179c-1b58-4644-a5ad-c44297cdfeae.png)
 ![image](https://user-images.githubusercontent.com/78338843/134863407-37e7a92f-c85e-4295-887f-36169e74dc3d.png)
 
+### List Methods
+Creates a new list for the authenticated user. Accounts are limited to 20 lists.  
+```
+API.create_list(name[, mode][, description])
+```
+![image](https://user-images.githubusercontent.com/78338843/134863879-0826fc5a-42ca-4362-9ab3-ff4a3d07e24a.png)
+
+### Search Tweets
+Returns a collection of relevant Tweets matching a specified query.  
+```
+API.search_tweets()
+```
+Results are stored in Search_tweets.json.  
+https://github.com/dongfang98/Project2-APIs/blob/main/Search_tweets.json

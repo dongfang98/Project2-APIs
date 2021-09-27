@@ -85,7 +85,7 @@ if __name__ == "__main__":
     API = Authorization_Setup()
     Home_Tweets = GET_My_Home_tweets(API)
     #User_Tweets = Get_User_Timeline(API,'@taylorswift13',10)
-    #Use Boston University ECE department twitter as example.
+    #Use Joe Biden as example.
     Result_Tweets = GET_Search_Tweets(API, "Joe Biden", "recent", 1, "2021-09-20")
     #print(Result_Tweets)
     #GET_Hashtag_Search_Tweets(API,"#Trump",5,"2020-09-30")

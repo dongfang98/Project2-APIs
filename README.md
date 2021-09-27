@@ -1,7 +1,7 @@
 # Project 2 - APIs
-EC601-test for twitter apis  
+EC601 - Test for Twitter/Google APIs.  
 # Phase1 - Twitter APIs
-I use TweetAPI to test several functions to my twitter ID, and save some of the results in json files.  
+I use TweetAPI to test several Twitter API's function with my twitter ID, and save some of the results in json files.  
 ## Python version
 Before testing, make sure you have the latest version of python. I found my Mac's default version is python2.7, so I run the command to open bash_profile：
 ```
@@ -84,3 +84,11 @@ API.search_tweets()
 ```
 Results are stored in Search_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/Search_tweets.json
+
+# References
+Document of tweety3.5.0:  
+https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media  
+Document of latest tweety:  
+https://docs.tweepy.org/en/latest/api.html  
+NiantongDong Unit test home tweets:  
+https://github.com/NiantongDong/EC601/tree/master/Project%202  

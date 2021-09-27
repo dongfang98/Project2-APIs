@@ -40,3 +40,11 @@ I use 'home_timeline' to return the 20 most recent statuses, including retweets,
 API.home_timeline([since_id][, max_id][, count][, page])
 ```
 Results are saved in my_tweets.json.  
+https://github.com/dongfang98/Project2-APIs/blob/main/my_tweets.json
+
+I use user_timeline to return the 20 most recent statuses posted from the authenticating user or the user specified. It’s also possible to request another user’s timeline via the id parameter.  
+```
+API.user_timeline([id/user_id/screen_name][, since_id][, max_id][, count][, page])
+```
+Results are saved in user_tweets.json.  
+https://github.com/dongfang98/Project2-APIs/blob/main/user_tweets.json

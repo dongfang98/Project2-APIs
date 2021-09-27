@@ -1,9 +1,9 @@
 # Project 2 - APIs
 EC601-test for twitter apis  
 # Phase1 - Twitter APIs
-I use TweetAPI to test several functions to my twitter ID.  
+I use TweetAPI to test several functions to my twitter ID, and save some of the results in json files.  
 ## Python version
-Before testing, make sure you have the latest version of python. I found my Mac's default version of python is 2.7, so I run the command to open bash_profile：
+Before testing, make sure you have the latest version of python. I found my Mac's default version is python2.7, so I run the command to open bash_profile：
 ```
 vi ./bash_profile
 ```
@@ -29,4 +29,14 @@ access_token_secret = 'Your secret access token'
 Bearer_token ='Your bearer token'
 ```
 ## Tweepy
-
+To import tweepy, run the command bellow to make sure it is installed into python3's package.
+```
+python3 -m pip install tweepy --user
+```
+## Functions
+### Timeline methods
+I use 'home_timeline' to return the 20 most recent statuses, including retweets, posted by the authenticating user and that user’s friends. This is the equivalent of /timeline/home on the Web.  
+```
+API.home_timeline([since_id][, max_id][, count][, page])
+```
+Results are saved in my_tweets.json.  

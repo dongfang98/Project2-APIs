@@ -57,3 +57,16 @@ API.update_status(status[, in_reply_to_status_id][, lat][, long][, source][, pla
 ![image](https://user-images.githubusercontent.com/78338843/134862590-6cf5f11f-40c2-4ff4-b35a-1bd8fb9d4cd6.png)
 ![image](https://user-images.githubusercontent.com/78338843/134862680-8fcd0464-1108-4839-9057-4163be7bd241.png)
 
+### Friendship Methods
+Create a new friendship with the specified user (aka follow).  
+```
+API.create_friendship(id/screen_name/user_id[, follow])
+```
+Destroy a friendship with the specified user (aka unfollow).  
+```
+API.destroy_friendship(id/screen_name/user_id)
+```
+I test this with my roomate's ID.
+![image](https://user-images.githubusercontent.com/78338843/134863447-7875179c-1b58-4644-a5ad-c44297cdfeae.png)
+![image](https://user-images.githubusercontent.com/78338843/134863407-37e7a92f-c85e-4295-887f-36169e74dc3d.png)
+

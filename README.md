@@ -36,14 +36,14 @@ python3 -m pip install tweepy --user
 ## Functions
 ### 1.Timeline methods
 I use 'home_timeline' to return the 20 most recent statuses, including retweets, posted by the authenticating user and that user’s friends. This is the equivalent of /timeline/home on the Web.  
-```
+``` python
 API.home_timeline([since_id][, max_id][, count][, page])
 ```
 Results are saved in my_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/my_tweets.json
 
 I use 'user_timeline' to return the 20 most recent statuses posted from the authenticating user or the user specified. It’s also possible to request another user’s timeline via the id parameter.  
-```
+``` python
 API.user_timeline([id/user_id/screen_name][, since_id][, max_id][, count][, page])
 ```
 Results are saved in user_tweets.json.  
@@ -51,7 +51,7 @@ https://github.com/dongfang98/Project2-APIs/blob/main/user_tweets.json
 
 ### 2.Status methods
 I use 'update_status' to update the authenticated user’s status. Statuses that are duplicates or too long will be silently ignored.
-```
+``` python
 API.update_status(status[, in_reply_to_status_id][, lat][, long][, source][, place_id])
 ```
 ![image](https://user-images.githubusercontent.com/78338843/134862590-6cf5f11f-40c2-4ff4-b35a-1bd8fb9d4cd6.png)
@@ -59,11 +59,11 @@ API.update_status(status[, in_reply_to_status_id][, lat][, long][, source][, pla
 
 ### 3.Friendship Methods
 Create a new friendship with the specified user (aka follow).  
-```
+``` python
 API.create_friendship(id/screen_name/user_id[, follow])
 ```
 Destroy a friendship with the specified user (aka unfollow).  
-```
+``` python
 API.destroy_friendship(id/screen_name/user_id)
 ```
 I test this with my roomate's ID.  
@@ -72,14 +72,14 @@ I test this with my roomate's ID.
 
 ### 4.List Methods
 Creates a new list for the authenticated user. Accounts are limited to 20 lists.  
-```
+``` python
 API.create_list(name[, mode][, description])
 ```
 ![image](https://user-images.githubusercontent.com/78338843/134863879-0826fc5a-42ca-4362-9ab3-ff4a3d07e24a.png)
 
 ### 5.Search Tweets
 Returns a collection of relevant Tweets matching a specified query.  
-```
+``` python
 API.search_tweets()
 ```
 Results are stored in Search_tweets.json.  
@@ -89,20 +89,36 @@ https://github.com/dongfang98/Project2-APIs/blob/main/Search_tweets.json
 In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
 ## Setting up authentication
 To begin with, you need to login in Google Cloud Platform, and create a project here: https://cloud.google.com/natural-language  
+  
 Next, create a service account key:  
 In the Cloud Console, click the email address for the service account that you created.  
 1.Click Keys.  
 2.Click Add key, then click Create new key.  
 3.Click Create. A JSON key file is downloaded to your computer.  
+  
 Provide authentication credentials to your application code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS. This variable only applies to your current shell session, so if you open a new session, set the variable again.
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
 ```
-
+Replace KEY_PATH with the path of the JSON file that contains your service account key.  
+## GoogleAPI.py
+In my code, I analyze the sentiment of the tweets searched by tweepy.  
+To run program, firstly you may need to impport the module 'google.cloud' with the command below:
+```
+python3 -m pip install google.cloud --user
+```
+Then run the analysis program with:
+```
+py GoogleNLP.py
+```
+A json file output will be automatically generated to show each tweets' sentiment score.  
+  
 # References
 Document of tweety3.5.0:  
 https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media  
 Document of latest tweety:  
 https://docs.tweepy.org/en/latest/api.html  
+Google Cloud Natural Language:  
+https://cloud.google.com/natural-language/docs/reference/libraries
 NiantongDong Unit test home tweets:  
 https://github.com/NiantongDong/EC601/tree/master/Project%202 

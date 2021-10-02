@@ -118,6 +118,7 @@ A json file output(taylor.py) will be automatically generated to show each tweet
     "moment": "Fri Sep 17 13:18:53",
     "text": "Hi! Saw you guys got Wildest Dreams trending on tiktok, thought you should have my version \ud83d\ude18\ud83d\ude18\ud83d\ude18\ud83d\ude18\u2026 https://t.co/LtkfAItbUp",
     "sentiment.score": 0.5,
+    "sentiment.magnitude": 1.5
 }
 ```
   

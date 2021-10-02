@@ -111,7 +111,7 @@ Then run the analysis program with:
 ```
 py GoogleNLP.py
 ```
-A json file output(taylor.py) will be automatically generated to show each tweets' sentiment score in the format below:
+A json file output(taylor.py) will be automatically generated to show each tweets' sentiment score and magnitude in the format below:
 ``` json
 {
     "name": "Taylor Swift",

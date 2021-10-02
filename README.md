@@ -34,7 +34,7 @@ To import tweepy, run the command bellow to make sure it is installed into pytho
 python3 -m pip install tweepy --user
 ```
 ## Functions
-### Timeline methods
+### 1.Timeline methods
 I use 'home_timeline' to return the 20 most recent statuses, including retweets, posted by the authenticating user and that user’s friends. This is the equivalent of /timeline/home on the Web.  
 ```
 API.home_timeline([since_id][, max_id][, count][, page])
@@ -49,7 +49,7 @@ API.user_timeline([id/user_id/screen_name][, since_id][, max_id][, count][, page
 Results are saved in user_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/user_tweets.json
 
-### Status methods
+### 2.Status methods
 I use 'update_status' to update the authenticated user’s status. Statuses that are duplicates or too long will be silently ignored.
 ```
 API.update_status(status[, in_reply_to_status_id][, lat][, long][, source][, place_id])
@@ -57,7 +57,7 @@ API.update_status(status[, in_reply_to_status_id][, lat][, long][, source][, pla
 ![image](https://user-images.githubusercontent.com/78338843/134862590-6cf5f11f-40c2-4ff4-b35a-1bd8fb9d4cd6.png)
 ![image](https://user-images.githubusercontent.com/78338843/134862680-8fcd0464-1108-4839-9057-4163be7bd241.png)
 
-### Friendship Methods
+### 3.Friendship Methods
 Create a new friendship with the specified user (aka follow).  
 ```
 API.create_friendship(id/screen_name/user_id[, follow])
@@ -70,14 +70,14 @@ I test this with my roomate's ID.
 ![image](https://user-images.githubusercontent.com/78338843/134863447-7875179c-1b58-4644-a5ad-c44297cdfeae.png)
 ![image](https://user-images.githubusercontent.com/78338843/134863407-37e7a92f-c85e-4295-887f-36169e74dc3d.png)
 
-### List Methods
+### 4.List Methods
 Creates a new list for the authenticated user. Accounts are limited to 20 lists.  
 ```
 API.create_list(name[, mode][, description])
 ```
 ![image](https://user-images.githubusercontent.com/78338843/134863879-0826fc5a-42ca-4362-9ab3-ff4a3d07e24a.png)
 
-### Search Tweets
+### 5.Search Tweets
 Returns a collection of relevant Tweets matching a specified query.  
 ```
 API.search_tweets()
@@ -94,7 +94,13 @@ NiantongDong Unit test home tweets:
 https://github.com/NiantongDong/EC601/tree/master/Project%202  
 # Phase2 - Google NLP
 In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
-To begin with, you need to login in Google Cloud Platform, and create a project. Link to Goole Cloud: https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts/create?supportedpurview=project&_ga=2.74451159.430915014.1633049632-1040906972.1633049632
-'''
+To begin with, you need to login in Google Cloud Platform, and create a project here: https://cloud.google.com/natural-language  
+Next, create a service account key:  
+In the Cloud Console, click the email address for the service account that you created.  
+1.Click Keys.  
+2.Click Add key, then click Create new key.  
+3.Click Create. A JSON key file is downloaded to your computer.  
+4.Click Close.  
+```
 export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
-'''
+```

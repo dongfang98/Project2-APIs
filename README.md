@@ -92,8 +92,9 @@ Document of latest tweety:
 https://docs.tweepy.org/en/latest/api.html  
 NiantongDong Unit test home tweets:  
 https://github.com/NiantongDong/EC601/tree/master/Project%202  
-
-
+# Phase2 - Google NLP
+In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
+To begin with, you need to login in Google Cloud Platform, and create a project. Link to Goole Cloud: https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts/create?supportedpurview=project&_ga=2.74451159.430915014.1633049632-1040906972.1633049632
 '''
 export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
 '''

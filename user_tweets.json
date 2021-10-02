@@ -1,5 +1,107 @@
 [
     {
+        "created_at": "Thu Sep 30 16:52:54 +0000 2021",
+        "id": 1443619878062235650,
+        "id_str": "1443619878062235650",
+        "text": "Got some news that I think you\u2019re gonna like - My version of Red will be out a week earlier than scheduled (includi\u2026 https://t.co/11fRFOYVPR",
+        "truncated": true,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/11fRFOYVPR",
+                    "expanded_url": "https://twitter.com/i/web/status/1443619878062235650",
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 17919972,
+            "id_str": "17919972",
+            "name": "Taylor Swift",
+            "screen_name": "taylorswift13",
+            "location": "",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/pipAfRDHA3",
+                            "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
+                            "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 88850575,
+            "friends_count": 0,
+            "listed_count": 113533,
+            "created_at": "Sat Dec 06 10:10:54 +0000 2008",
+            "favourites_count": 1380,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 690,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "regular",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 74721,
+        "favorite_count": 378923,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
         "created_at": "Mon Sep 20 20:14:21 +0000 2021",
         "id": 1440046696394682375,
         "id_str": "1440046696394682375",
@@ -33,13 +135,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -54,11 +156,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -74,7 +176,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -138,7 +240,7 @@
                 "name": "Taylor Nation",
                 "screen_name": "taylornation13",
                 "location": "Taylor Nation",
-                "description": "\ud83c\udf39 Red (Taylor\u2019s Version) out November 19 \ud83c\udf39",
+                "description": "\ud83c\udf39 Red (Taylor\u2019s Version) out November 12 \ud83c\udf39",
                 "url": "https://t.co/YFyDiFFjkA",
                 "entities": {
                     "url": {
@@ -159,16 +261,16 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 1263494,
-                "friends_count": 875,
-                "listed_count": 3507,
+                "followers_count": 1266428,
+                "friends_count": 876,
+                "listed_count": 3516,
                 "created_at": "Mon Oct 05 22:36:08 +0000 2009",
-                "favourites_count": 18531,
+                "favourites_count": 18537,
                 "utc_offset": null,
                 "time_zone": null,
                 "geo_enabled": false,
                 "verified": true,
-                "statuses_count": 20457,
+                "statuses_count": 20465,
                 "lang": null,
                 "contributors_enabled": false,
                 "is_translator": false,
@@ -179,7 +281,7 @@
                 "profile_background_tile": false,
                 "profile_image_url": "http://pbs.twimg.com/profile_images/1424024583905157120/jBr-ee5o_normal.jpg",
                 "profile_image_url_https": "https://pbs.twimg.com/profile_images/1424024583905157120/jBr-ee5o_normal.jpg",
-                "profile_banner_url": "https://pbs.twimg.com/profile_banners/80144576/1624041787",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/80144576/1633020829",
                 "profile_link_color": "AF1947",
                 "profile_sidebar_border_color": "000000",
                 "profile_sidebar_fill_color": "F6F6F6",
@@ -199,15 +301,15 @@
             "place": null,
             "contributors": null,
             "is_quote_status": false,
-            "retweet_count": 3419,
-            "favorite_count": 28164,
+            "retweet_count": 3424,
+            "favorite_count": 28325,
             "favorited": false,
             "retweeted": false,
             "possibly_sensitive": false,
             "lang": "en"
         },
-        "retweet_count": 28181,
-        "favorite_count": 238407,
+        "retweet_count": 28496,
+        "favorite_count": 242956,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -247,13 +349,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -268,11 +370,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -288,7 +390,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -308,8 +410,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 126282,
-        "favorite_count": 533924,
+        "retweet_count": 126358,
+        "favorite_count": 536282,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -360,13 +462,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -381,11 +483,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -401,7 +503,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -421,8 +523,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 4279,
-        "favorite_count": 32097,
+        "retweet_count": 4276,
+        "favorite_count": 32133,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -461,13 +563,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -482,11 +584,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -502,7 +604,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -634,16 +736,16 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 608580,
-                "friends_count": 2657,
-                "listed_count": 1623,
+                "followers_count": 609258,
+                "friends_count": 2658,
+                "listed_count": 1622,
                 "created_at": "Tue Oct 19 23:00:49 +0000 2010",
-                "favourites_count": 29809,
+                "favourites_count": 29833,
                 "utc_offset": null,
                 "time_zone": null,
                 "geo_enabled": false,
                 "verified": true,
-                "statuses_count": 42765,
+                "statuses_count": 42780,
                 "lang": null,
                 "contributors_enabled": false,
                 "is_translator": false,
@@ -674,15 +776,15 @@
             "place": null,
             "contributors": null,
             "is_quote_status": false,
-            "retweet_count": 12625,
-            "favorite_count": 60598,
+            "retweet_count": 12623,
+            "favorite_count": 60644,
             "favorited": false,
             "retweeted": false,
             "possibly_sensitive": false,
             "lang": "en"
         },
-        "retweet_count": 15304,
-        "favorite_count": 181365,
+        "retweet_count": 15333,
+        "favorite_count": 182073,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -733,13 +835,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -754,11 +856,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -774,7 +876,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -851,16 +953,16 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 14466829,
-                "friends_count": 3055,
-                "listed_count": 6875,
+                "followers_count": 14470806,
+                "friends_count": 3049,
+                "listed_count": 6891,
                 "created_at": "Mon Jun 08 23:58:35 +0000 2009",
-                "favourites_count": 5277,
+                "favourites_count": 5284,
                 "utc_offset": null,
                 "time_zone": null,
                 "geo_enabled": true,
                 "verified": true,
-                "statuses_count": 16328,
+                "statuses_count": 16342,
                 "lang": null,
                 "contributors_enabled": false,
                 "is_translator": false,
@@ -891,15 +993,15 @@
             "place": null,
             "contributors": null,
             "is_quote_status": false,
-            "retweet_count": 17556,
-            "favorite_count": 101855,
+            "retweet_count": 17611,
+            "favorite_count": 102837,
             "favorited": false,
             "retweeted": false,
             "possibly_sensitive": false,
             "lang": "en"
         },
-        "retweet_count": 38340,
-        "favorite_count": 250124,
+        "retweet_count": 38299,
+        "favorite_count": 250583,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -950,13 +1052,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -971,11 +1073,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -991,7 +1093,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -1011,8 +1113,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 19741,
-        "favorite_count": 142666,
+        "retweet_count": 19735,
+        "favorite_count": 143087,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1060,13 +1162,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -1081,11 +1183,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -1101,7 +1203,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -1121,8 +1223,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 34738,
-        "favorite_count": 201440,
+        "retweet_count": 34687,
+        "favorite_count": 201603,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
@@ -1162,13 +1264,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -1183,11 +1285,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -1203,7 +1305,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -1223,8 +1325,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 25109,
-        "favorite_count": 195743,
+        "retweet_count": 25091,
+        "favorite_count": 195928,
         "favorited": false,
         "retweeted": false,
         "lang": "en"
@@ -1263,13 +1365,13 @@
             "name": "Taylor Swift",
             "screen_name": "taylorswift13",
             "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
+            "description": "Happy, free, confused and lonely at the same time. Nov. 12th, 2021",
+            "url": "https://t.co/pipAfRDHA3",
             "entities": {
                 "url": {
                     "urls": [
                         {
-                            "url": "https://t.co/pipAfRVirB",
+                            "url": "https://t.co/pipAfRDHA3",
                             "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
                             "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
                             "indices": [
@@ -1284,11 +1386,11 @@
                 }
             },
             "protected": false,
-            "followers_count": 88829106,
+            "followers_count": 88850575,
             "friends_count": 0,
-            "listed_count": 113525,
+            "listed_count": 113533,
             "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
+            "favourites_count": 1380,
             "utc_offset": null,
             "time_zone": null,
             "geo_enabled": false,
@@ -1304,7 +1406,7 @@
             "profile_background_tile": false,
             "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
             "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1633020745",
             "profile_link_color": "0084B4",
             "profile_sidebar_border_color": "FFFFFF",
             "profile_sidebar_fill_color": "DDEEF6",
@@ -1324,196 +1426,8 @@
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 75518,
-        "favorite_count": 363225,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-    },
-    {
-        "created_at": "Thu Aug 05 18:04:29 +0000 2021",
-        "id": 1423344170505277443,
-        "id_str": "1423344170505277443",
-        "text": "Love is a ruthless game \ud83d\ude0e\n#iunlockedthevault\n\nhttps://t.co/WdrCmvLHyA https://t.co/4OnnrtPjDD",
-        "truncated": false,
-        "entities": {
-            "hashtags": [
-                {
-                    "text": "iunlockedthevault",
-                    "indices": [
-                        26,
-                        44
-                    ]
-                }
-            ],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [
-                {
-                    "url": "https://t.co/WdrCmvLHyA",
-                    "expanded_url": "http://store.taylorswift.com",
-                    "display_url": "store.taylorswift.com",
-                    "indices": [
-                        46,
-                        69
-                    ]
-                }
-            ],
-            "media": [
-                {
-                    "id": 1423344165950271493,
-                    "id_str": "1423344165950271493",
-                    "indices": [
-                        70,
-                        93
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/E8C7-kyXMAUh1DM.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/E8C7-kyXMAUh1DM.jpg",
-                    "url": "https://t.co/4OnnrtPjDD",
-                    "display_url": "pic.twitter.com/4OnnrtPjDD",
-                    "expanded_url": "https://twitter.com/taylorswift13/status/1423344170505277443/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "medium": {
-                            "w": 951,
-                            "h": 1200,
-                            "resize": "fit"
-                        },
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "small": {
-                            "w": 539,
-                            "h": 680,
-                            "resize": "fit"
-                        },
-                        "large": {
-                            "w": 1026,
-                            "h": 1295,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "extended_entities": {
-            "media": [
-                {
-                    "id": 1423344165950271493,
-                    "id_str": "1423344165950271493",
-                    "indices": [
-                        70,
-                        93
-                    ],
-                    "media_url": "http://pbs.twimg.com/media/E8C7-kyXMAUh1DM.jpg",
-                    "media_url_https": "https://pbs.twimg.com/media/E8C7-kyXMAUh1DM.jpg",
-                    "url": "https://t.co/4OnnrtPjDD",
-                    "display_url": "pic.twitter.com/4OnnrtPjDD",
-                    "expanded_url": "https://twitter.com/taylorswift13/status/1423344170505277443/photo/1",
-                    "type": "photo",
-                    "sizes": {
-                        "medium": {
-                            "w": 951,
-                            "h": 1200,
-                            "resize": "fit"
-                        },
-                        "thumb": {
-                            "w": 150,
-                            "h": 150,
-                            "resize": "crop"
-                        },
-                        "small": {
-                            "w": 539,
-                            "h": 680,
-                            "resize": "fit"
-                        },
-                        "large": {
-                            "w": 1026,
-                            "h": 1295,
-                            "resize": "fit"
-                        }
-                    }
-                }
-            ]
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-            "id": 17919972,
-            "id_str": "17919972",
-            "name": "Taylor Swift",
-            "screen_name": "taylorswift13",
-            "location": "",
-            "description": "Happy, free, confused and lonely at the same time. Nov. 19th, 2021",
-            "url": "https://t.co/pipAfRVirB",
-            "entities": {
-                "url": {
-                    "urls": [
-                        {
-                            "url": "https://t.co/pipAfRVirB",
-                            "expanded_url": "https://taylor.lnk.to/RedTaylorsVersion",
-                            "display_url": "taylor.lnk.to/RedTaylorsVers\u2026",
-                            "indices": [
-                                0,
-                                23
-                            ]
-                        }
-                    ]
-                },
-                "description": {
-                    "urls": []
-                }
-            },
-            "protected": false,
-            "followers_count": 88829106,
-            "friends_count": 0,
-            "listed_count": 113525,
-            "created_at": "Sat Dec 06 10:10:54 +0000 2008",
-            "favourites_count": 1379,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": true,
-            "statuses_count": 690,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "C0DEED",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1405947624184713220/aCLC4bTE_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/17919972/1624040718",
-            "profile_link_color": "0084B4",
-            "profile_sidebar_border_color": "FFFFFF",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": false,
-            "has_extended_profile": false,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "regular",
-            "withheld_in_countries": []
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 52847,
-        "favorite_count": 291886,
+        "retweet_count": 75451,
+        "favorite_count": 363354,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,

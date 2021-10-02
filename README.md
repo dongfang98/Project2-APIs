@@ -102,7 +102,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
 ```
 Replace KEY_PATH with the path of the JSON file that contains your service account key.  
 ## GoogleAPI.py
-In my code, I analyze the sentiment of the tweets searched by tweepy.  
+In my code, I analyze the sentiment of Taylor Swift's last 10 tweets searched by tweepy.  
 To run program, firstly you may need to impport the module 'google.cloud' with the command below:
 ```
 python3 -m pip install google.cloud --user
@@ -111,7 +111,15 @@ Then run the analysis program with:
 ```
 py GoogleNLP.py
 ```
-A json file output will be automatically generated to show each tweets' sentiment score.  
+A json file output(taylor.py) will be automatically generated to show each tweets' sentiment score in the format below:
+``` json
+{
+    "name": "Taylor Swift",
+    "moment": "Fri Sep 17 13:18:53",
+    "text": "Hi! Saw you guys got Wildest Dreams trending on tiktok, thought you should have my version \ud83d\ude18\ud83d\ude18\ud83d\ude18\ud83d\ude18\u2026 https://t.co/LtkfAItbUp",
+    "sentiment.score": 0.5,
+}
+```
   
 # References
 Document of tweety3.5.0:  

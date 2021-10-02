@@ -84,6 +84,20 @@ API.search_tweets()
 ```
 Results are stored in Search_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/Search_tweets.json
+ 
+# Phase2 - Google NLP
+In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
+## Setting up authentication
+To begin with, you need to login in Google Cloud Platform, and create a project here: https://cloud.google.com/natural-language  
+Next, create a service account key:  
+In the Cloud Console, click the email address for the service account that you created.  
+1.Click Keys.  
+2.Click Add key, then click Create new key.  
+3.Click Create. A JSON key file is downloaded to your computer.  
+Provide authentication credentials to your application code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS. This variable only applies to your current shell session, so if you open a new session, set the variable again.
+```
+export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
+```
 
 # References
 Document of tweety3.5.0:  
@@ -91,16 +105,4 @@ https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media
 Document of latest tweety:  
 https://docs.tweepy.org/en/latest/api.html  
 NiantongDong Unit test home tweets:  
-https://github.com/NiantongDong/EC601/tree/master/Project%202  
-# Phase2 - Google NLP
-In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
-To begin with, you need to login in Google Cloud Platform, and create a project here: https://cloud.google.com/natural-language  
-Next, create a service account key:  
-In the Cloud Console, click the email address for the service account that you created.  
-1.Click Keys.  
-2.Click Add key, then click Create new key.  
-3.Click Create. A JSON key file is downloaded to your computer.  
-4.Click Close.  
-```
-export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
-```
+https://github.com/NiantongDong/EC601/tree/master/Project%202 

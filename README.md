@@ -1,8 +1,8 @@
 # Project 2 - APIs
 EC601 - Test for Twitter/Google APIs.  
 # Phase1 - Twitter APIs
-In this task, I use TweetAPI to realize several Twitter API's function with my twitter ID, and save some of the results in json files.  
-## Python version
+In this phase, I use TweetAPI to realize several Twitter API's function with my twitter ID, and save some of the results in json files.  
+### Python Version
 Before running the program, make sure you have the latest version of python. I found my Mac's default version is python2.7, so I run the command to open bash_profile：
 ```
 vi ./bash_profile
@@ -18,7 +18,7 @@ Run the command to make the file work.
 ```
 source ./bash_profile
 ```
-## Key
+### Key
 Log into your Twitter develop account and create an app.  
 Then generate the key to access twitter API. Store the keys in file 'Keys.py', with the following format.  
 ```
@@ -28,7 +28,7 @@ access_token = 'Your access token'
 access_token_secret = 'Your secret access token'
 Bearer_token ='Your bearer token'
 ```
-## Tweepy
+### Tweepy
 To import tweepy, run the command bellow to make sure it is installed into python3's package.
 ```
 python3 -m pip install tweepy --user

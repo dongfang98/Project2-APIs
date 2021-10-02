@@ -1,9 +1,9 @@
 # Project 2 - APIs
 EC601 - Test for Twitter/Google APIs.  
 # Phase1 - Twitter APIs
-I use TweetAPI to test several Twitter API's function with my twitter ID, and save some of the results in json files.  
+In this task, I use TweetAPI to realize several Twitter API's function with my twitter ID, and save some of the results in json files.  
 ## Python version
-Before testing, make sure you have the latest version of python. I found my Mac's default version is python2.7, so I run the command to open bash_profile：
+Before running the program, make sure you have the latest version of python. I found my Mac's default version is python2.7, so I run the command to open bash_profile：
 ```
 vi ./bash_profile
 ```

@@ -92,3 +92,8 @@ Document of latest tweety:
 https://docs.tweepy.org/en/latest/api.html  
 NiantongDong Unit test home tweets:  
 https://github.com/NiantongDong/EC601/tree/master/Project%202  
+
+
+'''
+export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
+'''

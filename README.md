@@ -88,9 +88,9 @@ https://github.com/dongfang98/Project2-APIs/blob/main/Search_tweets.json
 # Phase2 - Google NLP
 In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
 ## Setting up authentication
-To begin with, you need to login in Google Cloud Platform, and create a project here: https://cloud.google.com/natural-language  
+To begin with, you need to login in Google Cloud Platform, and create a project: https://cloud.google.com/natural-language  
   
-Next, create a service account key:  
+Next, create a service account key for the project with the following steps:  
 In the Cloud Console, click the email address for the service account that you created.  
 1.Click Keys.  
 2.Click Add key, then click Create new key.  

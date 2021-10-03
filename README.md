@@ -128,6 +128,6 @@ https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media
 Document of latest tweety:  
 https://docs.tweepy.org/en/latest/api.html  
 Google Cloud Natural Language:  
-https://cloud.google.com/natural-language/docs/reference/libraries
+https://cloud.google.com/natural-language/docs/reference/libraries  
 NiantongDong Unit test home tweets:  
 https://github.com/NiantongDong/EC601/tree/master/Project%202 

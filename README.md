@@ -1,6 +1,6 @@
 # Project 2 - APIs
 EC601 - Test for Twitter/Google APIs.  
-# Phase1 - Twitter APIs
+# Phase1(A) - Twitter APIs
 In this phase, I use TweetAPI to realize several Twitter API's function with my twitter ID, and save some of the results in json files.  
 ### Python Version
 Before running the program, make sure you have the latest version of python. I found my Mac's default version is python2.7, so I run the command to open bash_profile：
@@ -85,7 +85,7 @@ API.search_tweets()
 Results are stored in Search_tweets.json.  
 https://github.com/dongfang98/Project2-APIs/blob/main/Search_tweets.json
  
-# Phase2 - Google NLP
+# Phase1(B) - Google NLP
 In this task, I use Google NLP API to score the sentiment of the tweets I searched with tweepy in phase 1.  
 ## Setting up authentication
 To begin with, you need to login in Google Cloud Platform, and create a project: https://cloud.google.com/natural-language  

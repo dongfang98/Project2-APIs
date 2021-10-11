@@ -121,7 +121,10 @@ A json file output(taylor.py) will be automatically generated to show each tweet
     "sentiment.magnitude": 1.5
 }
 ```
-  
+# Phase2 - Emotion Analyzer
+![image](https://user-images.githubusercontent.com/78338843/136720603-53944bc1-8331-475c-b8e0-14b94c718b8a.png)
+
+
 # References
 Document of tweety3.5.0:  
 https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media  

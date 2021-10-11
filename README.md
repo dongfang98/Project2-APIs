@@ -135,6 +135,7 @@ A user is not happy and want to see some interesting jokes.
 Enter a User ID, and click the button 'Check His/Her Recent Emotion'. Then http://127.0.0.1:5000/useremo will show all the recent tweets and each tweet's emotion score and magnitude.  
 I use tweepy's Timeline methods to put the user's tweet_text in json, and use Google NLP to analyze each tweets' emotion.  
 The result will be shown in this format:  
+``` json
 {
     "name": "Taylor Swift",
     "moment": "Fri Sep 17 13:18:53",
@@ -142,6 +143,7 @@ The result will be shown in this format:
     "sentiment.score": 0.5,
     "sentiment.magnitude": 1.5
 }
+``` 
 ### 2. Get Happy/Sad News
 
 ### Get Jokes

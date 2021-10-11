@@ -145,19 +145,18 @@ The result will be shown in this format:
 }
 ``` 
 ### 2. Get Happy/Sad News
+I use BeautifulSoup to get news from www.cbs.com, and then use Google NLP to devide them with the emotion score.  
 Firstly enter 'happy'/'sad' to choose the emotion of the news, then enter the number of news want to see.  
 If 'happy' news are requested, http://127.0.0.1:5000/happynews will show news with sentiment.score > 0.5.  
 If 'sad' news are requested, http://127.0.0.1:5000/happynews will show news with sentiment.score < 0.  
 Usually most of the news are sad with low score.  
-
 ![image](https://user-images.githubusercontent.com/78338843/136734335-c5af63da-bf64-4675-be55-9bc36ba2e0b6.png)
 If we search 10 sad news, we will get this:  
 ![image](https://user-images.githubusercontent.com/78338843/136734458-caf9fb41-49d6-41c4-899b-c5a5d1af33da.png)
-If the user dont enter the emotion type, I will also give a return as below.  
+If the user didn't enter the emotion type, I will also give a return as below.  
 ![image](https://user-images.githubusercontent.com/78338843/136734515-30aadfca-08f0-4dc1-af7e-192faa8a59f5.png)
 ### Get Jokes
-
-
+When the user is sad, he can lick the button to get some interesting tweet stories with sentiment.score > 0.8.  
 
 # References
 Document of tweety3.5.0:  

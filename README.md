@@ -157,7 +157,7 @@ If the user didn't enter the emotion type, I will also give a return as below.
 ![image](https://user-images.githubusercontent.com/78338843/136734515-30aadfca-08f0-4dc1-af7e-192faa8a59f5.png)
 ### 3.Get Jokes
 When the user is sad, he can lick the button to get some interesting tweet stories with sentiment.score > 0.8.  
-
+Json Format is the same as output of function1.  
 # References
 Document of tweety3.5.0:  
 https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media  

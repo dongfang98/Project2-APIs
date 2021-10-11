@@ -149,8 +149,12 @@ Firstly enter 'happy'/'sad' to choose the emotion of the news, then enter the nu
 If 'happy' news are requested, http://127.0.0.1:5000/happynews will show news with sentiment.score > 0.5.  
 If 'sad' news are requested, http://127.0.0.1:5000/happynews will show news with sentiment.score < 0.  
 Usually most of the news are sad with low score.  
-![image](https://user-images.githubusercontent.com/78338843/136734083-63afaa97-31f9-44a5-bfea-23c621383c10.png)
-![image](https://user-images.githubusercontent.com/78338843/136734267-ddd7fe0f-6bd7-4b0e-8b18-160283d1c9c9.png)
+
+![image](https://user-images.githubusercontent.com/78338843/136734335-c5af63da-bf64-4675-be55-9bc36ba2e0b6.png)
+If we search 10 sad news, we will get this:  
+![image](https://user-images.githubusercontent.com/78338843/136734458-caf9fb41-49d6-41c4-899b-c5a5d1af33da.png)
+If the user dont enter the emotion type, I will also give a return as below.  
+![image](https://user-images.githubusercontent.com/78338843/136734515-30aadfca-08f0-4dc1-af7e-192faa8a59f5.png)
 ### Get Jokes
 
 

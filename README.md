@@ -122,7 +122,8 @@ A json file output(taylor.py) will be automatically generated to show each tweet
 }
 ```
 # Phase2 - Emotion Analyzer
-In phase2, I use Flask to make simple Emotion Analyze Website. In folder 'Phase2', python codes are in Emo_analyzer.py, website style are in templates/index.html.  
+In phase2, I use Flask to make simple Emotion Analyze Website.  
+In folder 'Phase2', python codes are in Emo_analyzer.py, website style are in templates/index.html.  
 ![image](https://user-images.githubusercontent.com/78338843/136720603-53944bc1-8331-475c-b8e0-14b94c718b8a.png)
 
 ## User Story  

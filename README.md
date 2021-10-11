@@ -122,7 +122,30 @@ A json file output(taylor.py) will be automatically generated to show each tweet
 }
 ```
 # Phase2 - Emotion Analyzer
+In phase2, I use Flask to make simple Emotion Analyze Website.  
 ![image](https://user-images.githubusercontent.com/78338843/136720603-53944bc1-8331-475c-b8e0-14b94c718b8a.png)
+
+## User Story  
+A user want to see whether his/her idol is happy or sad recently.  
+A user want to see all/set number of happy/sad news today from CBS.  
+A user is not happy and want to see some interesting jokes.  
+
+## Functions  
+### 1.Analyze Twitter's Emotion 
+Enter a User ID, and click the button 'Check His/Her Recent Emotion'. Then http://127.0.0.1:5000/useremo will show all the recent tweets and each tweet's emotion score and magnitude.  
+I use tweepy's Timeline methods to put the user's tweet_text in json, and use Google NLP to analyze each tweets' emotion.  
+The result will be shown in this format:  
+{
+    "name": "Taylor Swift",
+    "moment": "Fri Sep 17 13:18:53",
+    "text": "Hi! Saw you guys got Wildest Dreams trending on tiktok, thought you should have my version \ud83d\ude18\ud83d\ude18\ud83d\ude18\ud83d\ude18\u2026 https://t.co/LtkfAItbUp",
+    "sentiment.score": 0.5,
+    "sentiment.magnitude": 1.5
+}
+### 2. Get Happy/Sad News
+
+### Get Jokes
+
 
 
 # References

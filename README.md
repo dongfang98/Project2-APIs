@@ -152,6 +152,7 @@ If 'sad' news are requested, http://127.0.0.1:5000/happynews will show news with
 Usually most of the news are sad with low score.  
 ![image](https://user-images.githubusercontent.com/78338843/136734335-c5af63da-bf64-4675-be55-9bc36ba2e0b6.png)
 If we search 10 sad news, we will get this:  
+I‘m still working on the json line wrap, dump(indent) didn't work.  
 ![image](https://user-images.githubusercontent.com/78338843/136734458-caf9fb41-49d6-41c4-899b-c5a5d1af33da.png)
 If the user didn't enter the emotion type, I will also give a return as below.  
 ![image](https://user-images.githubusercontent.com/78338843/136734515-30aadfca-08f0-4dc1-af7e-192faa8a59f5.png)

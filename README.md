@@ -145,7 +145,12 @@ The result will be shown in this format:
 }
 ``` 
 ### 2. Get Happy/Sad News
-
+Firstly enter 'happy'/'sad' to choose the emotion of the news, then enter the number of news want to see.  
+If 'happy' news are requested, http://127.0.0.1:5000/happynews will show news with sentiment.score > 0.5.  
+If 'sad' news are requested, http://127.0.0.1:5000/happynews will show news with sentiment.score < 0.  
+Usually most of the news are sad with low score.  
+![image](https://user-images.githubusercontent.com/78338843/136734083-63afaa97-31f9-44a5-bfea-23c621383c10.png)
+![image](https://user-images.githubusercontent.com/78338843/136734267-ddd7fe0f-6bd7-4b0e-8b18-160283d1c9c9.png)
 ### Get Jokes
 
 

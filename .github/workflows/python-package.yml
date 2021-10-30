@@ -38,10 +38,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       env:
-          CONSUMER_KEY: ${{ secrets.consumer_key }}
-          CONSUMER_SECRET:  ${{ secrets.consumer_secret }} 
-          ACCESS_TOKEN: ${{ secrets.access_token }}
-          ACCESS_TOKEN_SECRET: ${{ secrets.access_token_secret }} 
+          CONSUMER_KEY: ${{ KEY.consumer_key }}
+          CONSUMER_SECRET:  ${{ KEY.consumer_secret }} 
+          ACCESS_TOKEN: ${{ KEY.access_token }}
+          ACCESS_TOKEN_SECRET: ${{ KEY.access_token_secret }} 
       run: |
         cd action\ test
         python TWeetAPI.py

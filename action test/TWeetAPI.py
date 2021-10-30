@@ -44,7 +44,10 @@ def GET_My_Home_tweets(api):
     #print (My_Home_tweets)
     # store result in a jason file called 'my_tweets'
     Write_tweets_to_File(My_Home_tweets, 'my_tweets')
-    return My_Home_tweets
+    data = []
+    for status in My_Home_tweets:
+        data.append(status._json)
+    return data
 
 
 # get several numbers of tweets from a certain user, use api.user_timeline() from tweepy!

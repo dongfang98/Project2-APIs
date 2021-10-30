@@ -10,15 +10,14 @@ class TestSum(unittest.TestCase):
         with open('my_tweets.json','r') as f:
             data_home = json.load(f)
         self.assertEqual(TA.GET_My_Home_tweets(api),data_home,"Error")
-    '''
+
     def test_user_time_line(self):
         with open('user_tweets.json','r') as f:
             data_user = json.load(f)
         #Correct user ID
         self.assertEqual(TA.Get_User_Timeline(api,'@taylorswift13',10),data_user,"Error")
         #Incorrect user ID -> Shold throw exception -> return False
-        self.assertEqual(TA.Get_User_Timeline(api,'@taylorswift13',10),False,"Error")
-    '''
+
     def test_Search_Tweets(self):
         with open('Search_tweets.json','r') as f:
             data_search_1 = json.load(f)

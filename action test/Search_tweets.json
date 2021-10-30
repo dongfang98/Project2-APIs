@@ -1,0 +1,190 @@
+[
+    {
+        "created_at": "Thu Oct 28 23:59:59 +0000 2021",
+        "id": 1453874217016037377,
+        "id_str": "1453874217016037377",
+        "text": "RT @TaxReformExpert: BREAKING NEWS:\n\nU.S. economic growth slows to 2%.\n\nJoe Biden's supply chain crisis is to blame.",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "TaxReformExpert",
+                    "name": "Julio Gonzalez - juliogonzalez.com",
+                    "id": 33256808,
+                    "id_str": "33256808",
+                    "indices": [
+                        3,
+                        19
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 2164489479,
+            "id_str": "2164489479",
+            "name": "B.Wallace",
+            "screen_name": "Stevieray2013",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 225,
+            "friends_count": 285,
+            "listed_count": 0,
+            "created_at": "Sat Nov 02 07:54:25 +0000 2013",
+            "favourites_count": 128161,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 81289,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1047216265251737601/BWtkTQD5_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1047216265251737601/BWtkTQD5_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2164489479/1528657200",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none",
+            "withheld_in_countries": []
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Oct 28 13:09:56 +0000 2021",
+            "id": 1453710623892725760,
+            "id_str": "1453710623892725760",
+            "text": "BREAKING NEWS:\n\nU.S. economic growth slows to 2%.\n\nJoe Biden's supply chain crisis is to blame.",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 33256808,
+                "id_str": "33256808",
+                "name": "Julio Gonzalez - juliogonzalez.com",
+                "screen_name": "TaxReformExpert",
+                "location": "",
+                "description": "#1 followed Tax Expert on Twitter!!! Most Interesting Man in Tax #TaxReformExpert | Wizard of OZ (#OpportunityZones) | \ud83d\udce7:AskJulio@engineeredtaxservices.com",
+                "url": "https://t.co/xIQ2x3FLAx",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/xIQ2x3FLAx",
+                                "expanded_url": "https://www.linkedin.com/in/julio-gonzalez-5726322/",
+                                "display_url": "linkedin.com/in/julio-gonza\u2026",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 51456,
+                "friends_count": 8231,
+                "listed_count": 0,
+                "created_at": "Sun Apr 19 17:33:42 +0000 2009",
+                "favourites_count": 2717,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 5634,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "352726",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1278362308163637250/RtF3T2Cl_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1278362308163637250/RtF3T2Cl_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/33256808/1593620164",
+                "profile_link_color": "E81C4F",
+                "profile_sidebar_border_color": "829D5E",
+                "profile_sidebar_fill_color": "99CC33",
+                "profile_text_color": "3E4415",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none",
+                "withheld_in_countries": []
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 476,
+            "favorite_count": 2472,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 476,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    }
+]

@@ -18,13 +18,13 @@ class TestSum(unittest.TestCase):
         self.assertEqual(TA.Get_User_Timeline(api,'@taylorswift13',10),data_user,"Error")
         #Incorrect user ID -> Shold throw exception -> return False
         self.assertEqual(TA.Get_User_Timeline(api,'@taylorswift13',10),False,"Error")
-    
+    '''
     def test_Search_Tweets(self):
         with open('Search_tweets.json','r') as f:
             data_search_1 = json.load(f)
         #Expected behaviour -> Right argument -> return text
         self.assertEqual(TA.GET_Search_Tweets(api, "Joe Biden", "recent", 1, "2021-10-29"),data_search_1,"Error")
-    '''
+    
 
 if __name__ == '__main__':
     print("Start testing")

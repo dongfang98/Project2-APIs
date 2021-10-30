@@ -56,7 +56,9 @@ def Get_User_Timeline(api, ID, Count_Number):
     # store result into a jason file
     #print (user_tweets_list)
     Write_tweets_to_File(user_tweets_list, 'user_tweets')
-    return user_tweets_list
+    for status in user_tweets_list:
+        data.append(status._json)
+    return data
 
 
 # search tweets according to content, use api.search_tweets from tweepy

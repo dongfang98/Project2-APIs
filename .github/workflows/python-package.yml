@@ -43,7 +43,6 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.access_token }}
           ACCESS_TOKEN_SECRET: ${{ secrets.access_token_secret }} 
       run: |
-        coverage run -m pytest
-    - name: Show coverage report
-      run: |
-        coverage report -m
+        cd Project\ 4
+        python TweetAPI.py
+        python Unit_Test.py

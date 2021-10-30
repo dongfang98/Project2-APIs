@@ -32,6 +32,6 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.access_token }}
           ACCESS_TOKEN_SECRET: ${{ secrets.access_token_secret }} 
       run: |
-        cd Project\ 4
+        cd Unit\ test
         python TweetAPI.py
         python Unit_Test.py

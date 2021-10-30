@@ -28,7 +28,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install tweepy
         pip install pytest
-        pip install TweetAPI
         python -m pip install flake8 pytest coverage
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8

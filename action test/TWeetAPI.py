@@ -64,7 +64,10 @@ def GET_Search_Tweets(api, Target_content, search_type, Count_Number, Time):
     Result_Tweets = api.search_tweets(q=Target_content, result_type=search_type, count=Count_Number, until=Time)
     Display_tweets(Result_Tweets)
     Write_tweets_to_File(Result_Tweets, 'Search_tweets')
-    return Result_Tweets
+    data = []
+    for status in Result_Tweets:
+        data.append(status._json)
+    return data
 
 
 # Search tweets based on Hashtag and time.

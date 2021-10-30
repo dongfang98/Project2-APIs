@@ -87,7 +87,7 @@ if __name__ == "__main__":
     #User_Tweets = Get_User_Timeline(API,'@taylorswift13',10)
     #Use Joe Biden as example.
     Result_Tweets = GET_Search_Tweets(API, "Joe Biden", "recent", 1, "2021-09-20")
-    #print(Result_Tweets)
+    print(Result_Tweets)
     #GET_Hashtag_Search_Tweets(API,"#Trump",5,"2020-09-30")
     #add_friend = add_friends(API, '@keduck250')
     #delete_friend = delete_friends(API, '@keduck250')

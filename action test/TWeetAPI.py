@@ -34,7 +34,7 @@ def Write_tweets_to_File(Input_list, target_filename):
     Tweets_text = open(filename, 'w')
     for status in Input_list:
         data.append(status._json)
-    json.dump(data, Tweets_text, indent=4)
+    json.dump(data, Tweets_text)
     Tweets_text.close
 
 

@@ -1,11 +1,17 @@
 import tweepy
 import Keys  # .py file that store all necessary keys
 import json  # To write file as json format
+import os
+import sys
 
+access_token = os.getenv('ACCESS_TOKEN')
+access_token_secret = os.getenv('ACCESS_TOKEN_SECRET')
+consumer_key = os.getenv('CONSUMER_KEY')
+consumer_secret = os.getenv('CONSUMER_SECRET')
 
 def Authorization_Setup():
-    auth = tweepy.OAuthHandler(Keys.consumer_key, Keys.consumer_secret) #pass customer keys
-    auth.set_access_token(Keys.access_token, Keys.access_token_secret) #pass access_token and access_token_secret
+    auth = tweepy.OAuthHandler(consumer_key, consumer_secret) #pass customer keys
+    auth.set_access_token(access_token, access_token_secret) #pass access_token and access_token_secret
     api = tweepy.API(auth, wait_on_rate_limit=True)
     return api #generate the api
 

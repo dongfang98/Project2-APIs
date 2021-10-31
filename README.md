@@ -160,6 +160,10 @@ If the user didn't enter the emotion type, I will also give a return as below.
 ### 3.Get Jokes
 When the user is sad, he can lick the button to get some interesting tweet stories with sentiment.score > 0.8.  
 Json Format is the same as output of function1.  
+# Unit Test
+I add a python-package.yml to workflows, with all the env and commands in it. I use secrets to store the tweepy keys.
+I write 3 unit test in TWeetAPI_test.py and run it in action successfully. Three function in TWeetAPI.py are tested, including 'test_homeline()', 'test_user_time_line()' and 'test_Search_Tweets()'.  
+All the codes and related json files are in folder 'action test'.  
 # References
 Document of tweety3.5.0:  
 https://docs.tweepy.org/en/v3.5.0/api.html#API.update_with_media  
